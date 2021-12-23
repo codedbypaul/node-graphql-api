@@ -1,0 +1,25 @@
+{
+  "name": "node-graphql-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:codedbypaul/node-graphql-api.git",
+  "author": "Paul Hilder <paul@worthwyle.co.uk>",
+  "license": "MIT",
+  "scripts": {
+    "commit": "cz",
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.2",
+    "express-graphql": "^0.12.0",
+    "graphql": "^16.2.0"
+  },
+  "devDependencies": {
+    "cz-conventional-changelog": "3.3.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
